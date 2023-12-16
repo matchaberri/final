@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background:#db7e9d;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    background: #fff;
+}
+
+.logo {
+    font-weight: 1000;
+    color: #db7e9d;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #111;
+    background: #e59ae7;
+    padding: 5px 10px;
+}
+
+li a:hover {
+    color: #fff;
+    background: #db7e9d;
+    transition: 0.4s;
+}
+
+main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+    background: #e59ae7;
+    color: rgb(199, 87, 156);
+    margin-left: 100px;
+    width: 36%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px 0;
+    border: 1px solid #fff;
+}
+
+
+.description p{
+    width: 320px;
+    color: #fff;
+}
+
+.icecreamlogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    height: 900px;
+    background: #e59ae7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+h3 {
+    margin-bottom: 40px;
+    font-size: 25px;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+
+.sakurablossom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 70px;
+}
+
+.matchaicecream {
+    text-align: center;
+}
+
+button {
+    padding: 7px 20px;
+    background: #e59ae7;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+.chrysanthemumhoneyicecream {
+    text-align: right;
+}
+
+button {
+    padding: 7px 20px;
+    background: #db7e9d;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h5 {
+    margin-top: 20px;
+}
+
+.chrysanthemumhoneyicecream button {
+    margin-top: 20px;
+}
+
+.delivery {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-delivery {
+    text-align: center;
+    color: #e59ae7;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.icon-delivery {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+h6{
+    border-radius: 10px;
+    width: 400px;
+    background-color: #e59ae7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 300px;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    color: #fff;
+    background: #472303;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
